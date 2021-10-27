@@ -20,4 +20,4 @@
         ?>
     </div>
 </header>
-<div id="main-site" class="container">
+<main role="main" class="container">
