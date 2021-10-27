@@ -3,7 +3,64 @@ Theme Name: Metallica Theme
 Author: Mangs
 */
 
+
+/* Real CSS begins here*/
 body {
-    margin: 0;
-    padding: 0;
+    background-color: black !important;
+    color: grey ! important;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Metal Mania', cursive;
+}
+
+a, a:link, a:visited {
+    color: grey;
+    font: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    font:bolder ;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* NavBar */
+.main-menu {
+    padding: 20px;
+    display: flex;
+    background-color: black; 
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu li a{
+    font-family: 'Metal Mania', cursive;
+    color: gray;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.main-menu li a:after{
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Front-page*/
+.front-page-image {
+    flex: auto;
+}
+
+.text-box {
+    background-color: gray;
+    color: antiquewhite;
+}
+
