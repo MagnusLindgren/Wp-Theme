@@ -16,9 +16,9 @@ $aboutEmail = get_field('about_email');
         <div class="col-sm">
             <img class=" img-fluid front-page-image" src="<?php echo $aboutImage; ?>">
             <div class="row">
-        Contact Info:
-    <a href="mailto:<?php echo $aboutEmail; ?>"><?php echo $aboutEmail; ?></a>
-    </div>
+            Contact Info:
+            <a href="mailto:<?php echo $aboutEmail; ?>"><?php echo $aboutEmail; ?></a>
+            </div>
         </div>
         
     </div>
